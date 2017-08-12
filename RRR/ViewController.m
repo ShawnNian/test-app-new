@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
     UIImage *image = [UIImage imageNamed:@""];
+    UIImageView *imageV = [[UIImageView alloc]init];
+    imageV.image = image;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
